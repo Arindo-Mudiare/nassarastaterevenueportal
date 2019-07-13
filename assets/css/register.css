@@ -20,6 +20,9 @@
 .pfont {
   color: #05aa5d !important;
 }
+.pfontlite {
+  color: #03e77d !important;
+}
 
 .card-signin {
   border: 0;

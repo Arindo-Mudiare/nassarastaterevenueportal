@@ -16,15 +16,20 @@ strong {
 }
 
 a {
-  color: #856dc0;
-  border-bottom: 1px dashed #856dc0;
+  color: #05aa5d;
+  /* border-bottom: 1px dashed #856dc0; */
   text-decoration: none;
   transition: all 0.3s;
+  font-weight: bolder;
 }
 a:hover,
 a:focus {
-  color: #856dc0;
+  color: #057e45;
   border: 0;
+  text-decoration: none;
+}
+
+a.homelink {
   text-decoration: none;
 }
 
@@ -40,9 +45,13 @@ h2 {
 h3 {
   font-size: 22px;
   font-weight: 300;
-  color: #555;
+  color: rgb(255, 255, 255);
   line-height: 30px;
   font-style: italic;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
 }
 
 img {
