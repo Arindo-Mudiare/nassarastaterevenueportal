@@ -1,3 +1,10 @@
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
@@ -173,7 +180,7 @@ img {
 }
 
 .navbar-brand {
-  width: 85px;
+  width: 60px;
   padding: 17px;
   background: url(../img/nassarawa_logo70.png) left center no-repeat;
   border: 0;
@@ -187,7 +194,7 @@ img {
 }
 
 .top-content {
-  top: 100px;
+  top: 0px;
 }
 .directorpad {
   padding-top: 200px;
@@ -343,6 +350,19 @@ img {
 .section-3-box h3 {
   margin-top: 0;
   padding: 0 0 10px 0;
+}
+
+/* Boxes */
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.box {
+  background: var(--primary);
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: var(--shadow);
 }
 
 /***** Footer *****/

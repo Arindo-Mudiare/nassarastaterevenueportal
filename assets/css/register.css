@@ -17,6 +17,9 @@
   align-items: center;
 }
 
+footafont {
+  color: #fff !important;
+}
 .pfont {
   color: #05aa5d !important;
 }
